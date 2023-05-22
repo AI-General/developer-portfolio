@@ -3,6 +3,7 @@ import React from 'react';
 import { HashLink as NavLink } from 'react-router-hash-link';
 import Typed from 'react-typed';
 import { headerData } from '../../../data/headerData';
+import avatarImage from '../../../assets/png/Hongyu Xiao.png';
 import './landing.css';
 
 import {
@@ -21,7 +22,7 @@ function LandingUI({ theme, drawerOpen, classes }) {
                     style={{ backgroundColor: theme.quaternary }}
                 >
                     <div className='lcl--content'>
-                        {contactsData.linkedIn && (
+                        {/* {contactsData.linkedIn && (
                             <a
                                 href={contactsData.linkedIn}
                                 target='_blank'
@@ -33,7 +34,7 @@ function LandingUI({ theme, drawerOpen, classes }) {
                                     aria-label='LinkedIn'
                                 />
                             </a>
-                        )}
+                        )} */}
                         {contactsData.github && (
                             <a
                                 href={contactsData.github}
@@ -47,7 +48,7 @@ function LandingUI({ theme, drawerOpen, classes }) {
                                 />
                             </a>
                         )}
-                        {contactsData.twitter && (
+                        {/* {contactsData.twitter && (
                             <a
                                 href={contactsData.twitter}
                                 target='_blank'
@@ -72,11 +73,12 @@ function LandingUI({ theme, drawerOpen, classes }) {
                                     aria-label='facebook'
                                 />
                             </a>
-                        )}
+                        )} */}
                     </div>
                 </div>
                 <img
-                    src={headerData.image}
+                    // src={headerData.image}
+                    src={avatarImage}
                     alt=''
                     className='landing--img'
                     style={{
@@ -96,9 +98,12 @@ function LandingUI({ theme, drawerOpen, classes }) {
                         <h1>{headerData.name}</h1>
                         <Typed
                             strings={[
-                                'Backend Developer',
-                                'Frontend Developer',
-                                'Fullstack Developer']}
+                                'Artificial Intellingece Engineer',
+                                'Machine Learning Engineer',
+                                'Deep Learning Engineer',
+                                'Computer Vision Engineer',
+                                'NLP Engineer',
+                                'Big Data Engineer']}
                             typeSpeed={40}
                             backSpeed={50}
                             className="typed-header"
