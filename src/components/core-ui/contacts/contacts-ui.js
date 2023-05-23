@@ -144,7 +144,7 @@ const ContactUI = ({ open, success, errMsg, handleClose, classes, handleContactF
                 {contactsData.email}
               </p>
             </a>
-            <a
+            {/* <a
               href={`tel:${contactsData.phone}`}
               className='personal-details'
             >
@@ -154,7 +154,7 @@ const ContactUI = ({ open, success, errMsg, handleClose, classes, handleContactF
               <p style={{ color: theme.tertiary }}>
                 {contactsData.phone}
               </p>
-            </a>
+            </a> */}
             <div className='personal-details'>
               <div className={classes.detailsIcon}>
                 <HiOutlineLocationMarker />
@@ -164,7 +164,7 @@ const ContactUI = ({ open, success, errMsg, handleClose, classes, handleContactF
               </p>
             </div>
 
-            <div className='socialmedia-icons'>
+            {/* <div className='socialmedia-icons'>
               {contactsData.twitter && (
                 <a
                   href={contactsData.twitter}
@@ -238,7 +238,7 @@ const ContactUI = ({ open, success, errMsg, handleClose, classes, handleContactF
                   <FaFacebook aria-label='facebook' />
                 </a>
               )}
-            </div>
+            </div> */}
           </div>
         </div>
       </div>

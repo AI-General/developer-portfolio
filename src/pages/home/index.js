@@ -25,7 +25,7 @@ function HomePage() {
             {/* <Certificate /> */}
             <Projects />
             <Education />
-            <Blog />
+            {/* <Blog /> */}
             <Contacts />
         </div>
     )
