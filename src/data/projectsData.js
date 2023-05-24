@@ -1,3 +1,6 @@
+import spch_rcg from '../assets/svg/projects/speech recognition.png'
+import chatbot from '../assets/svg/projects/chatbot.png'
+import super_resolution from '../assets/svg/projects/super_resolution.png'
 import eight from '../assets/svg/projects/eight.svg'
 import seven from '../assets/svg/projects/seven.svg'
 import six from '../assets/svg/projects/six.svg'
@@ -6,31 +9,40 @@ import six from '../assets/svg/projects/six.svg'
 export const projectsData = [
     {
         id: 1,
-        projectName: 'Ayla Networks',
-        projectDesc: 'This project about Simplifying the Development of Smart Home & IoT Solutions.',
-        tags: ['React', 'SAAS', 'React Bootstrap'],
-        code: '',
-        demo: 'https://www.aylanetworks.com/',
-        image: six
+        projectName: 'Speech Recognition',
+        projectDesc: 'This project about processing human speech into a written format',
+        tags: ['Python', 'Raspberry Pi', 'Tensorflow'],
+        code: 'https://github.com/AI-General/Speech-Recognition',
+        demo: '',
+        image: spch_rcg
     },
     {
         id: 2,
-        projectName: 'Jewelry Niche',
-        projectDesc: 'This project is a Jewelry shop, Customer can be buy product and manage them and make payment.',
-        tags: ['React', 'Express', 'Material Ui'],
-        code: 'https://github.com/said7388/jewelry-niche',
+        projectName: 'ChatBot-GPT',
+        projectDesc: 'This project is about chatBot using gpt-3',
+        tags: ['GPT3', 'Python', 'OpenAI API'],
+        code: 'https://github.com/AI-General/chatbot-gpt',
         demo: 'https://pandora-web.netlify.app/',
-        image: seven
+        image: chatbot
     },
     {
         id: 3,
-        projectName: 'Travel Agency',
-        projectDesc: 'This project about travel agency management.',
-        tags: ['React', 'CSS', 'Material Ui'],
-        code: 'https://github.com/said7388/Travel-Agency-client',
+        projectName: 'Image Super Resolution',
+        projectDesc: 'This project aims at developing Practical Algorithms for General Image/Video Restoration.',
+        tags: ['GAN', 'Data processing', 'Python'],
+        code: 'https://github.com/AI-General/Super-GAN',
         demo: 'https://travel-agency-fc58b.web.app/',
-        image: eight
-    }
+        image: super_resolution
+    },
+    // {
+    //     id: 4,
+    //     projectName: 'Travel Agency',
+    //     projectDesc: 'This project about travel agency management.',
+    //     tags: ['React', 'CSS', 'Material Ui'],
+    //     code: 'https://github.com/said7388/Travel-Agency-client',
+    //     demo: 'https://travel-agency-fc58b.web.app/',
+    //     image: eight
+    // }
 ]
 
 
