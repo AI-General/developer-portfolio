@@ -1,9 +1,9 @@
 import spch_rcg from '../assets/svg/projects/speech recognition.png'
 import chatbot from '../assets/svg/projects/chatbot.png'
 import super_resolution from '../assets/svg/projects/super_resolution.png'
-import eight from '../assets/svg/projects/eight.svg'
-import seven from '../assets/svg/projects/seven.svg'
-import six from '../assets/svg/projects/six.svg'
+// import eight from '../assets/svg/projects/eight.svg'
+// import seven from '../assets/svg/projects/seven.svg'
+// import six from '../assets/svg/projects/six.svg'
 
 
 export const projectsData = [

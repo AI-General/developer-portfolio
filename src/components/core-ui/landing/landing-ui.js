@@ -7,7 +7,7 @@ import avatarImage from '../../../assets/png/Hongyu Xiao.png';
 import './landing.css';
 
 import {
-    FaFacebook, FaGithub, FaLinkedin, FaTwitter
+    FaGithub//, FaFacebook, FaLinkedin, FaTwitter
 } from 'react-icons/fa';
 import { contactsData } from '../../../data/contactsData';
 

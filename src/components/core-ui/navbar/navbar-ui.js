@@ -1,7 +1,7 @@
 import { Drawer } from '@mui/material';
 import React from 'react';
 import { BsFillMoonFill, BsFillSunFill } from 'react-icons/bs';
-import { FaFolderOpen, FaUser } from 'react-icons/fa';
+import { FaUser } from 'react-icons/fa';//FaFolderOpen, 
 import { HiDocumentText } from 'react-icons/hi';
 import { IoClose, IoHomeSharp, IoMenuSharp } from 'react-icons/io5';
 import { MdPhone } from 'react-icons/md';

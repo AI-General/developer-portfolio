@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaCode, FaPlay } from 'react-icons/fa';
+import { FaCode} from 'react-icons/fa';//, FaPlay 
 import Fade from 'react-reveal/Fade';
 import placeholder from '../../../assets/png/placeholder.png';
 import './single-project.css';
